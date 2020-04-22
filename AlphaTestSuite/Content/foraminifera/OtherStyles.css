@@ -1,0 +1,83 @@
+/* The radio button container */
+.vs-rb-container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.vs-rb-container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.vs-rb-checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 24px;
+  width: 24px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  box-shadow: inset 0 1px 3px 0 #00000021;
+  border: solid 1px #EEEEEF;
+}
+
+/* On mouse-over, add a grey background color */
+.vs-rb-container:hover input ~ .vs-rb-checkmark {
+  background-color: #FFFFFF;
+  border: solid 1px #006BA6;
+}
+
+/* When the radio button is checked, add a white background */
+.vs-rb-container input:checked ~ .vs-rb-checkmark {
+  background-color: #FFFFFF;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.vs-rb-checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.vs-rb-container input:checked ~ .vs-rb-checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.vs-rb-container .vs-rb-checkmark:after {
+ 	top: 3px;
+	left: 3px;
+	width: 16px;
+  height: 16px;
+	border-radius: 50%;
+	background-color: #006BA6;
+}
+
+<label class="vs-rb-container">One
+  <input type="radio" checked="checked" name="radio">
+  <span class="vs-rb-checkmark"></span>
+</label>
+<label class="vs-rb-container">Two
+  <input type="radio" name="radio">
+  <span class="vs-rb-checkmark"></span>
+</label>
+<label class="vs-rb-container">Three
+  <input type="radio" name="radio">
+  <span class="vs-rb-checkmark"></span>
+</label>
+<label class="vs-rb-container">Four
+  <input type="radio" name="radio">
+  <span class="vs-rb-checkmark"></span>
+</label>

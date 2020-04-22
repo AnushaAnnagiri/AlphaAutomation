@@ -106,7 +106,7 @@
     <Content Include="program.xml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\TestGit\AlphaUtilities\TestAutomationFramework.Utilities.csproj">
+    <ProjectReference Include="..\AlphaUtilities\TestAutomationFramework.Utilities.csproj">
       <Project>{c3dc6c29-2c6f-4793-9675-782e15e30625}</Project>
       <Name>TestAutomationFramework.Utilities</Name>
     </ProjectReference>

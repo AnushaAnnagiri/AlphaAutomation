@@ -1,0 +1,132 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+
+.navbar{
+  position: fixed;
+  height: 64px;
+  overflow: hidden;
+  top: 0;
+  display: flex;
+  align-items: center;
+  background-color: #00263A;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  /* padding-left: 16px; */
+}
+
+.logo{
+  width: 180px;
+  height: 64px;
+  background-color: #00263A;
+  flex: 1 9 10%;
+  /* flex: 2 2 20%; */
+  margin-left: 16px;
+}
+.menu{
+  flex: 9 1 90%;
+  /* flex: 7 1 70%; */
+  /* background-color: #ff7675; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile{
+  flex: 1 7 10%;
+  background-color: #ffeaa7;
+}
+.menu a{
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+  margin-left: 20px;
+  transition: color 0.3s;
+  text-transform: uppercase;
+}
+.menu a:hover{
+  color: #6ab04c;
+  border-bottom: solid 1px #ffffff;
+}
+.header{
+  width: 100%;
+  height: 600px;
+  background: url(bg.png) no-repeat 50% 50%;
+  background-size: cover;
+  margin-top: 80px;
+}
+.btn{
+  display: none;
+  position: absolute;
+  right: 20px;
+  flex: 9 1 90%;
+}
+.btn:hover > span{
+  background: #ffffff;
+}
+.btn span{
+  display: block;
+  margin: 6px;
+  width: 40px;
+  height: 3px;
+  background: #ffffff;
+}
+p{
+  padding: 20px;
+  font-size: 20px;
+  text-align: justify;
+
+}
+@media only screen and (max-width : 600px) {
+  .navbar{
+    overflow: visible;
+    flex-wrap: wrap;
+  }
+
+  .logo{
+    background-color: #00263A;
+    display: flex;
+    align-items: center;
+    flex: 100%;
+  }
+
+  .logo img{
+
+  }
+
+  .menu{
+    width: 100%;
+    left: 0;
+    background: #EEEEEF;
+    overflow: hidden;
+    max-height: 0;
+    display: block;
+  }
+  .menu a{
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    color: #00263A;
+  }
+
+  .profile{
+    width: 100%;
+    left: 0;
+    background: #ffeaa7;
+    overflow: hidden;
+    max-height: 0;
+    display: block;
+  }
+
+  .btn{
+    display: block;
+    cursor: pointer;
+
+  }
+  .show{
+    max-height: 500px;
+  }
+}

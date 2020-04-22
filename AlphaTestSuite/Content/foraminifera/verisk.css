@@ -1,0 +1,201 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #00263a;
+}
+
+img, svg, video, audio {
+ max-width: 100%;
+}
+
+
+/* Anup Padmanabha */
+/* -------------------------------------------------------------------------
+ Buttons
+---------------------------------------------------------------------------- */
+.vs-btn {
+  padding: 16px;
+  border-style: none;
+  border-radius: 2px;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.vs-btn-primary {
+  background-color: #006ba6;
+  box-shadow: 1px 1px 1px 0 #76797b28;
+  color: #ffffff;
+}
+
+.vs-btn-primary:hover {
+  background-color: #1a7aaf;
+  box-shadow: 1px 1px 1px 0 #76797b28;
+}
+
+.vs-btn-primary:disabled {
+  background-color: #e6f0f6;
+  box-shadow: 1px 1px 1px 0 #dddede28;
+  color: #99a8b0;
+}
+
+.vs-btn-secondary{
+  box-shadow: 1px 1px 1px 0 #76797b28;
+  background-color: #fafafa;
+  border: solid 1px #006ba6;
+  color: #006ba6;
+}
+
+.vs-btn-secondary:hover{
+  background-color: #e6edf3;
+}
+
+.vs-btn-action{
+  width: 112px;
+  height: 40px;
+  border-radius: 2px;
+  box-shadow: 1px 1px 1px 0 #76797b28;
+  background-color: #fafafa;
+  border: solid 1px #006ba6;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.14;
+  letter-spacing: normal;
+  text-align: center;
+  color: #006ba6;
+}
+
+.vs-btn-sm{
+  padding: 8px;
+  box-shadow: 1px 1px 1px 0 #76797b28;
+  background-color: #84bd00;
+  font-size: 12px;
+  color: #ffffff;
+}
+
+.vs-btn-sm:hover{
+  background-color: #9dca33;
+}
+
+/* -------------------------------------------------------------------------
+ Input
+---------------------------------------------------------------------------- */
+.vs-input-text{
+  width: 50%; /* Should be generic */
+  height: 40px;
+  padding: 8px;
+  margin: 8px;
+  background-color: #ffffff;
+  display: inline-block;
+  border-radius: 2px;
+  box-shadow: inset 0 1px 3px 0 #00000019;
+  border: solid 1px #ececec;
+  box-sizing: border-box;
+  color:#00263A;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  resize: vertical;
+}
+
+.vs-input-text::placeholder {
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #bbbcbd;
+}
+
+/* -------------------------------------------------------------------------
+ Label
+---------------------------------------------------------------------------- */
+
+.vs-label {
+  padding: 16px 8px 16px 8px;
+  display: inline-block;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #00263a;
+  text-align: right;
+  clear: both;
+  float:left;
+}
+
+/* -------------------------------------------------------------------------
+ Radio Button
+---------------------------------------------------------------------------- */
+.vs-radio-btn:checked,
+.vs-radio-btn:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+.vs-radio-btn:checked + label,
+.vs-radio-btn:not(:checked) + label
+{
+    position: relative;
+    padding-left: 32px;
+    cursor: pointer;
+    line-height: 24px;
+    display: inline-block;
+    color: #00263a;
+}
+.vs-radio-btn:checked + label:before,
+.vs-radio-btn:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 24px;
+    height: 24px;
+    border: 1px solid #ddd;
+    border-radius: 100%;
+    background: #fff;
+}
+.vs-radio-btn:checked + label:after,
+.vs-radio-btn:not(:checked) + label:after {
+    content: '';
+    width: 16px;
+    height: 16px;
+    background: #006BA6;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.vs-radio-btn:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+.vs-radio-btn:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
