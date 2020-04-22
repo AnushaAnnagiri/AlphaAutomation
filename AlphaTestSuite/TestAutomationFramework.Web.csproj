@@ -199,13 +199,13 @@
     <Content Include="Scripts\jquery-3.3.1.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\Alpha\Alpha\TestAutomationFramework.Tests.csproj">
+    <ProjectReference Include="..\AlphaUtilities\TestAutomationFramework.Utilities.csproj">
+      <Project>{c3dc6c29-2c6f-4793-9675-782e15e30625}</Project>
+      <Name>TestAutomationFramework.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Alpha\TestAutomationFramework.Tests.csproj">
       <Project>{482a91ee-9b60-4838-b5c1-5c3a49b106e0}</Project>
       <Name>TestAutomationFramework.Tests</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\AlphaUtilities\TestAutomationFramework.Utilities.csproj">
-      <Project>{C3DC6C29-2C6F-4793-9675-782E15E30625}</Project>
-      <Name>TestAutomationFramework.Utilities</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

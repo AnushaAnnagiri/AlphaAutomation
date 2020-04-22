@@ -1,0 +1,70 @@
+c:\users\i29211\documents\visual studio 2017\Projects\Alpha\Alpha\bin\Debug\NUnit3.TestAdapter.dll
+c:\users\i29211\documents\visual studio 2017\Projects\Alpha\Alpha\bin\Debug\NUnit3.TestAdapter.pdb
+c:\users\i29211\documents\visual studio 2017\Projects\Alpha\Alpha\bin\Debug\nunit.engine.dll
+c:\users\i29211\documents\visual studio 2017\Projects\Alpha\Alpha\bin\Debug\nunit.engine.api.dll
+c:\users\i29211\documents\visual studio 2017\Projects\Alpha\Alpha\bin\Debug\Alpha.pdb
+c:\users\i29211\documents\visual studio 2017\Projects\Alpha\Alpha\bin\Debug\nunit.framework.dll
+c:\users\i29211\documents\visual studio 2017\Projects\Alpha\Alpha\bin\Debug\WebDriver.dll
+c:\users\i29211\documents\visual studio 2017\Projects\Alpha\Alpha\bin\Debug\nunit.framework.pdb
+c:\users\i29211\documents\visual studio 2017\Projects\Alpha\Alpha\bin\Debug\nunit.framework.xml
+c:\users\i29211\documents\visual studio 2017\Projects\Alpha\Alpha\bin\Debug\WebDriver.xml
+c:\users\i29211\documents\visual studio 2017\Projects\Alpha\Alpha\obj\Debug\Alpha.csprojResolveAssemblyReference.cache
+c:\users\i29211\documents\visual studio 2017\Projects\Alpha\Alpha\obj\Debug\Alpha.pdb
+c:\users\i29211\documents\visual studio 2017\Projects\Alpha\Alpha\bin\Debug\Alpha.dll.config
+c:\users\i29211\documents\visual studio 2017\Projects\Alpha\Alpha\bin\Debug\Alpha.dll
+c:\users\i29211\documents\visual studio 2017\Projects\Alpha\Alpha\obj\Debug\Alpha.dll
+C:\Users\i29211\Documents\Visual Studio 2017\Projects\Alpha\Alpha\bin\Debug\DnsClient.dll
+C:\Users\i29211\Documents\Visual Studio 2017\Projects\Alpha\Alpha\bin\Debug\ExtentReports.dll
+C:\Users\i29211\Documents\Visual Studio 2017\Projects\Alpha\Alpha\bin\Debug\MongoDB.Bson.dll
+C:\Users\i29211\Documents\Visual Studio 2017\Projects\Alpha\Alpha\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\i29211\Documents\Visual Studio 2017\Projects\Alpha\Alpha\bin\Debug\MongoDB.Driver.dll
+C:\Users\i29211\Documents\Visual Studio 2017\Projects\Alpha\Alpha\bin\Debug\Newtonsoft.Json.dll
+C:\Users\i29211\Documents\Visual Studio 2017\Projects\Alpha\Alpha\bin\Debug\RazorEngine.dll
+C:\Users\i29211\Documents\Visual Studio 2017\Projects\Alpha\Alpha\bin\Debug\System.Buffers.dll
+C:\Users\i29211\Documents\Visual Studio 2017\Projects\Alpha\Alpha\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\i29211\Documents\Visual Studio 2017\Projects\Alpha\Alpha\bin\Debug\System.Web.Razor.dll
+C:\Users\i29211\Documents\Visual Studio 2017\Projects\Alpha\Alpha\bin\Debug\DnsClient.xml
+C:\Users\i29211\Documents\Visual Studio 2017\Projects\Alpha\Alpha\bin\Debug\MongoDB.Bson.xml
+C:\Users\i29211\Documents\Visual Studio 2017\Projects\Alpha\Alpha\bin\Debug\MongoDB.Driver.xml
+C:\Users\i29211\Documents\Visual Studio 2017\Projects\Alpha\Alpha\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\i29211\Documents\Visual Studio 2017\Projects\Alpha\Alpha\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\i29211\Documents\Visual Studio 2017\Projects\Alpha\Alpha\bin\Debug\Newtonsoft.Json.xml
+C:\Users\i29211\Documents\Visual Studio 2017\Projects\Alpha\Alpha\bin\Debug\RazorEngine.xml
+C:\Users\i29211\Documents\Visual Studio 2017\Projects\Alpha\Alpha\bin\Debug\System.Web.Razor.xml
+E:\Alpha\Alpha\bin\Debug\NUnit3.TestAdapter.dll
+E:\Alpha\Alpha\bin\Debug\NUnit3.TestAdapter.pdb
+E:\Alpha\Alpha\bin\Debug\nunit.engine.dll
+E:\Alpha\Alpha\bin\Debug\nunit.engine.api.dll
+E:\Alpha\Alpha\bin\Debug\Alpha.dll.config
+E:\Alpha\Alpha\bin\Debug\Alpha.dll
+E:\Alpha\Alpha\bin\Debug\Alpha.pdb
+E:\Alpha\Alpha\bin\Debug\AlphaUtilities.dll
+E:\Alpha\Alpha\bin\Debug\DnsClient.dll
+E:\Alpha\Alpha\bin\Debug\ExtentReports.dll
+E:\Alpha\Alpha\bin\Debug\MongoDB.Bson.dll
+E:\Alpha\Alpha\bin\Debug\MongoDB.Driver.Core.dll
+E:\Alpha\Alpha\bin\Debug\MongoDB.Driver.dll
+E:\Alpha\Alpha\bin\Debug\Newtonsoft.Json.dll
+E:\Alpha\Alpha\bin\Debug\nunit.framework.dll
+E:\Alpha\Alpha\bin\Debug\RazorEngine.dll
+E:\Alpha\Alpha\bin\Debug\System.Buffers.dll
+E:\Alpha\Alpha\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Alpha\Alpha\bin\Debug\System.Web.Razor.dll
+E:\Alpha\Alpha\bin\Debug\WebDriver.dll
+E:\Alpha\Alpha\bin\Debug\AlphaUtilities.pdb
+E:\Alpha\Alpha\bin\Debug\DnsClient.xml
+E:\Alpha\Alpha\bin\Debug\MongoDB.Bson.xml
+E:\Alpha\Alpha\bin\Debug\MongoDB.Driver.xml
+E:\Alpha\Alpha\bin\Debug\MongoDB.Driver.Core.xml
+E:\Alpha\Alpha\bin\Debug\Newtonsoft.Json.pdb
+E:\Alpha\Alpha\bin\Debug\Newtonsoft.Json.xml
+E:\Alpha\Alpha\bin\Debug\nunit.framework.pdb
+E:\Alpha\Alpha\bin\Debug\nunit.framework.xml
+E:\Alpha\Alpha\bin\Debug\RazorEngine.xml
+E:\Alpha\Alpha\bin\Debug\System.Web.Razor.xml
+E:\Alpha\Alpha\bin\Debug\WebDriver.xml
+E:\Alpha\Alpha\obj\Debug\Alpha.csprojAssemblyReference.cache
+E:\Alpha\Alpha\obj\Debug\Alpha.csproj.CoreCompileInputs.cache
+E:\Alpha\Alpha\obj\Debug\Alpha.csproj.CopyComplete
+E:\Alpha\Alpha\obj\Debug\Alpha.dll
+E:\Alpha\Alpha\obj\Debug\Alpha.pdb

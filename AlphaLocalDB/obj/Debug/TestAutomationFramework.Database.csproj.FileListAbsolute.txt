@@ -1,0 +1,13 @@
+E:\TestGit\AlphaLocalDB\bin\Debug\LocalDatabase.mdf
+E:\TestGit\AlphaLocalDB\bin\Debug\LocalDatabase_log.ldf
+E:\TestGit\AlphaLocalDB\bin\Debug\AlphaLocalDB.dll.config
+E:\TestGit\AlphaLocalDB\bin\Debug\AlphaLocalDB.dll
+E:\TestGit\AlphaLocalDB\bin\Debug\AlphaLocalDB.pdb
+E:\TestGit\AlphaLocalDB\bin\Debug\EntityFramework.dll
+E:\TestGit\AlphaLocalDB\bin\Debug\EntityFramework.SqlServer.dll
+E:\TestGit\AlphaLocalDB\bin\Debug\EntityFramework.xml
+E:\TestGit\AlphaLocalDB\bin\Debug\EntityFramework.SqlServer.xml
+E:\TestGit\AlphaLocalDB\obj\Debug\TestAutomationFramework.Database.csproj.CoreCompileInputs.cache
+E:\TestGit\AlphaLocalDB\obj\Debug\TestAutomationFramework.Database.csproj.CopyComplete
+E:\TestGit\AlphaLocalDB\obj\Debug\AlphaLocalDB.dll
+E:\TestGit\AlphaLocalDB\obj\Debug\AlphaLocalDB.pdb

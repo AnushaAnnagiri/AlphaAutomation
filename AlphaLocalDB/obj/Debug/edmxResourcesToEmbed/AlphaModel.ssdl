@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AlphaLocalDB.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="TestCycle">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="ApplicationName" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="ApplicationType" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="StartDate" Type="datetime" Nullable="false" />
+    <Property Name="EndDate" Type="datetime" Nullable="false" />
+    <Property Name="StatusId" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="TestCycleStatus">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" Nullable="false" />
+    <Property Name="Status" Type="nvarchar" MaxLength="128" Nullable="false" />
+  </EntityType>
+  <EntityType Name="WorkFlow">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="Description" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ApplicationName" Type="nvarchar" MaxLength="128" Nullable="false" />
+  </EntityType>
+  <EntityType Name="WorkFlowExecutionLog">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="WorkFlowId" Type="bigint" Nullable="false" />
+    <Property Name="TesterName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="StartDate" Type="datetime" Nullable="false" />
+    <Property Name="EndDate" Type="datetime" />
+    <Property Name="StatusId" Type="bigint" Nullable="false" />
+    <Property Name="ReportPath" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="WorkFlowExecutionStatus">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Status" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="WorkFlowTestStepMapping">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="WorkFlowId" Type="bigint" Nullable="false" />
+    <Property Name="TestStepName" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="ExecutionSequence" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_TestCycle_Status">
+    <End Role="TestCycleStatus" Type="Self.TestCycleStatus" Multiplicity="1" />
+    <End Role="TestCycle" Type="Self.TestCycle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TestCycleStatus">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TestCycle">
+        <PropertyRef Name="StatusId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_WorkFlowExecutionLog_StatusId">
+    <End Role="WorkFlowExecutionStatus" Type="Self.WorkFlowExecutionStatus" Multiplicity="1" />
+    <End Role="WorkFlowExecutionLog" Type="Self.WorkFlowExecutionLog" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="WorkFlowExecutionStatus">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="WorkFlowExecutionLog">
+        <PropertyRef Name="StatusId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_WorkFlowTestStepMapping_WorkFlowId">
+    <End Role="WorkFlow" Type="Self.WorkFlow" Multiplicity="1" />
+    <End Role="WorkFlowTestStepMapping" Type="Self.WorkFlowTestStepMapping" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="WorkFlow">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="WorkFlowTestStepMapping">
+        <PropertyRef Name="WorkFlowId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="AlphaLocalDBStoreContainer">
+    <EntitySet Name="TestCycle" EntityType="Self.TestCycle" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="TestCycleStatus" EntityType="Self.TestCycleStatus" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="WorkFlow" EntityType="Self.WorkFlow" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="WorkFlowExecutionLog" EntityType="Self.WorkFlowExecutionLog" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="WorkFlowExecutionStatus" EntityType="Self.WorkFlowExecutionStatus" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="WorkFlowTestStepMapping" EntityType="Self.WorkFlowTestStepMapping" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_TestCycle_Status" Association="Self.FK_TestCycle_Status">
+      <End Role="TestCycleStatus" EntitySet="TestCycleStatus" />
+      <End Role="TestCycle" EntitySet="TestCycle" />
+    </AssociationSet>
+    <AssociationSet Name="FK_WorkFlowExecutionLog_StatusId" Association="Self.FK_WorkFlowExecutionLog_StatusId">
+      <End Role="WorkFlowExecutionStatus" EntitySet="WorkFlowExecutionStatus" />
+      <End Role="WorkFlowExecutionLog" EntitySet="WorkFlowExecutionLog" />
+    </AssociationSet>
+    <AssociationSet Name="FK_WorkFlowTestStepMapping_WorkFlowId" Association="Self.FK_WorkFlowTestStepMapping_WorkFlowId">
+      <End Role="WorkFlow" EntitySet="WorkFlow" />
+      <End Role="WorkFlowTestStepMapping" EntitySet="WorkFlowTestStepMapping" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

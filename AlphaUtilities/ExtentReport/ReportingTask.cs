@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AlphaUtilities.ExtentReport
+namespace TestAutomationFramework.Utilities.ExtentReport
 {
     public class ReportingTask
     {

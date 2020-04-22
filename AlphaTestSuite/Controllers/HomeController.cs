@@ -4,14 +4,12 @@ using System.Linq;
 using System.Reflection;
 using System.Web;
 using System.Web.Mvc;
-using Alpha;
-using Alpha.TestSteps;
-using AlphaUtilities;
-using AlphaUtilities.CustomAttributes;
 using NUnit.Framework;
 using NUnitLite;
+using TestAutomationFramework.Tests.TestSteps;
+using TestAutomationFramework.Utilities.CustomAttributes;
 
-namespace AlphaTestSuite.Controllers
+namespace TestAutomationFramework.Web.Controllers
 {
     public class HomeController : Controller
     {

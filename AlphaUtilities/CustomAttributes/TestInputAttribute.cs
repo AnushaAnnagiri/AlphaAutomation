@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AlphaUtilities.CustomAttributes
+namespace TestAutomationFramework.Utilities.CustomAttributes
 {
     [AttributeUsage(AttributeTargets.Class |
      AttributeTargets.Method,

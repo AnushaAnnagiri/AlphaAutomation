@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AlphaLocalDBStoreContainer" CdmEntityContainer="LocalDatabaseEntities">
+    <EntitySetMapping Name="TestCycles">
+      <EntityTypeMapping TypeName="AlphaLocalDB.TestCycle">
+        <MappingFragment StoreEntitySet="TestCycle">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ApplicationName" ColumnName="ApplicationName" />
+          <ScalarProperty Name="ApplicationType" ColumnName="ApplicationType" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="StatusId" ColumnName="StatusId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TestCycleStatus">
+      <EntityTypeMapping TypeName="AlphaLocalDB.TestCycleStatu">
+        <MappingFragment StoreEntitySet="TestCycleStatus">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="WorkFlows">
+      <EntityTypeMapping TypeName="AlphaLocalDB.WorkFlow">
+        <MappingFragment StoreEntitySet="WorkFlow">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ApplicationName" ColumnName="ApplicationName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="WorkFlowExecutionLogs">
+      <EntityTypeMapping TypeName="AlphaLocalDB.WorkFlowExecutionLog">
+        <MappingFragment StoreEntitySet="WorkFlowExecutionLog">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="WorkFlowId" ColumnName="WorkFlowId" />
+          <ScalarProperty Name="TesterName" ColumnName="TesterName" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="StatusId" ColumnName="StatusId" />
+          <ScalarProperty Name="ReportPath" ColumnName="ReportPath" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="WorkFlowExecutionStatus">
+      <EntityTypeMapping TypeName="AlphaLocalDB.WorkFlowExecutionStatu">
+        <MappingFragment StoreEntitySet="WorkFlowExecutionStatus">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="WorkFlowTestStepMappings">
+      <EntityTypeMapping TypeName="AlphaLocalDB.WorkFlowTestStepMapping">
+        <MappingFragment StoreEntitySet="WorkFlowTestStepMapping">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="WorkFlowId" ColumnName="WorkFlowId" />
+          <ScalarProperty Name="TestStepName" ColumnName="TestStepName" />
+          <ScalarProperty Name="ExecutionSequence" ColumnName="ExecutionSequence" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

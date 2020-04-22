@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AlphaLocalDB" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="TestCycle">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ApplicationName" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ApplicationType" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="StartDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="EndDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="StatusId" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="TestCycleStatu" Relationship="Self.FK_TestCycle_Status" FromRole="TestCycle" ToRole="TestCycleStatus" />
+  </EntityType>
+  <EntityType Name="TestCycleStatu">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" />
+    <Property Name="Status" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="TestCycles" Relationship="Self.FK_TestCycle_Status" FromRole="TestCycleStatus" ToRole="TestCycle" />
+  </EntityType>
+  <EntityType Name="WorkFlow">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Name" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ApplicationName" Type="String" MaxLength="128" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="WorkFlowTestStepMappings" Relationship="Self.FK_WorkFlowTestStepMapping_WorkFlowId" FromRole="WorkFlow" ToRole="WorkFlowTestStepMapping" />
+  </EntityType>
+  <EntityType Name="WorkFlowExecutionLog">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="WorkFlowId" Type="Int64" Nullable="false" />
+    <Property Name="TesterName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="StartDate" Type="DateTime" Nullable="false" Precision="3" />
+    <Property Name="EndDate" Type="DateTime" Precision="3" />
+    <Property Name="StatusId" Type="Int64" Nullable="false" />
+    <Property Name="ReportPath" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="WorkFlowExecutionStatu" Relationship="Self.FK_WorkFlowExecutionLog_StatusId" FromRole="WorkFlowExecutionLog" ToRole="WorkFlowExecutionStatus" />
+  </EntityType>
+  <EntityType Name="WorkFlowExecutionStatu">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Status" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="WorkFlowExecutionLogs" Relationship="Self.FK_WorkFlowExecutionLog_StatusId" FromRole="WorkFlowExecutionStatus" ToRole="WorkFlowExecutionLog" />
+  </EntityType>
+  <EntityType Name="WorkFlowTestStepMapping">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="WorkFlowId" Type="Int64" Nullable="false" />
+    <Property Name="TestStepName" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ExecutionSequence" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="WorkFlow" Relationship="Self.FK_WorkFlowTestStepMapping_WorkFlowId" FromRole="WorkFlowTestStepMapping" ToRole="WorkFlow" />
+  </EntityType>
+  <Association Name="FK_TestCycle_Status">
+    <End Role="TestCycleStatus" Type="Self.TestCycleStatu" Multiplicity="1" />
+    <End Role="TestCycle" Type="Self.TestCycle" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="TestCycleStatus">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="TestCycle">
+        <PropertyRef Name="StatusId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_WorkFlowTestStepMapping_WorkFlowId">
+    <End Role="WorkFlow" Type="Self.WorkFlow" Multiplicity="1" />
+    <End Role="WorkFlowTestStepMapping" Type="Self.WorkFlowTestStepMapping" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="WorkFlow">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="WorkFlowTestStepMapping">
+        <PropertyRef Name="WorkFlowId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_WorkFlowExecutionLog_StatusId">
+    <End Role="WorkFlowExecutionStatus" Type="Self.WorkFlowExecutionStatu" Multiplicity="1" />
+    <End Role="WorkFlowExecutionLog" Type="Self.WorkFlowExecutionLog" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="WorkFlowExecutionStatus">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="WorkFlowExecutionLog">
+        <PropertyRef Name="StatusId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="LocalDatabaseEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="TestCycles" EntityType="Self.TestCycle" />
+    <EntitySet Name="TestCycleStatus" EntityType="Self.TestCycleStatu" />
+    <EntitySet Name="WorkFlows" EntityType="Self.WorkFlow" />
+    <EntitySet Name="WorkFlowExecutionLogs" EntityType="Self.WorkFlowExecutionLog" />
+    <EntitySet Name="WorkFlowExecutionStatus" EntityType="Self.WorkFlowExecutionStatu" />
+    <EntitySet Name="WorkFlowTestStepMappings" EntityType="Self.WorkFlowTestStepMapping" />
+    <AssociationSet Name="FK_TestCycle_Status" Association="Self.FK_TestCycle_Status">
+      <End Role="TestCycleStatus" EntitySet="TestCycleStatus" />
+      <End Role="TestCycle" EntitySet="TestCycles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_WorkFlowTestStepMapping_WorkFlowId" Association="Self.FK_WorkFlowTestStepMapping_WorkFlowId">
+      <End Role="WorkFlow" EntitySet="WorkFlows" />
+      <End Role="WorkFlowTestStepMapping" EntitySet="WorkFlowTestStepMappings" />
+    </AssociationSet>
+    <AssociationSet Name="FK_WorkFlowExecutionLog_StatusId" Association="Self.FK_WorkFlowExecutionLog_StatusId">
+      <End Role="WorkFlowExecutionStatus" EntitySet="WorkFlowExecutionStatus" />
+      <End Role="WorkFlowExecutionLog" EntitySet="WorkFlowExecutionLogs" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

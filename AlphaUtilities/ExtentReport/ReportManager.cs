@@ -1,6 +1,6 @@
 ﻿using AventStack.ExtentReports;
 
-namespace AlphaUtilities.ExtentReport
+namespace TestAutomationFramework.Utilities.ExtentReport
 {
     public class ReportManager
     {
