@@ -1,0 +1,44 @@
+{
+  "uuid": "7c974d0a-3272-4aaa-b8b3-6ff2102348ee-tc-0-1000",
+  "name": "TestAllure.AmazonAllure.TitleValidation",
+  "children": [
+    "dca81a7f-0938-453b-9e43-7535233db395-tr-0-1005"
+  ],
+  "befores": [
+    {
+      "name": "InitBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1587276404348,
+      "stop": 1587276404348
+    }
+  ],
+  "afters": [
+    {
+      "name": "CloseBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1587276404348,
+      "stop": 1587276404348
+    }
+  ],
+  "links": [],
+  "start": 1587276385652,
+  "stop": 1587276404400
+}

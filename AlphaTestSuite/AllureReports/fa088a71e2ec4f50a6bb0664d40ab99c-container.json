@@ -1,0 +1,44 @@
+{
+  "uuid": "1cea7836-72c4-4b41-9f78-a9dc46841252-tc-0-1000",
+  "name": "TestAllure.AmazonAllure.LoginFunction3",
+  "children": [
+    "150afb59-782b-4cfb-ad55-691b6758ace3-tr-0-1003"
+  ],
+  "befores": [
+    {
+      "name": "InitBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1587277537426,
+      "stop": 1587277537426
+    }
+  ],
+  "afters": [
+    {
+      "name": "CloseBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1587277537426,
+      "stop": 1587277537426
+    }
+  ],
+  "links": [],
+  "start": 1587277511654,
+  "stop": 1587277537463
+}

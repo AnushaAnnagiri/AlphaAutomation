@@ -1,0 +1,87 @@
+{
+  "uuid": "150ead50-7d23-4157-a150-4f4e886fd025-tr-0-1004",
+  "historyId": "TestAllure.AmazonAllure.LogoValidation",
+  "fullName": "TestAllure.AmazonAllure.LogoValidation",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-E6LGVQU"
+    },
+    {
+      "name": "testClass",
+      "value": "TestAllure.AmazonAllure"
+    },
+    {
+      "name": "testMethod",
+      "value": "LogoValidation"
+    },
+    {
+      "name": "package",
+      "value": "TestAllure.AmazonAllure"
+    },
+    {
+      "name": "tag",
+      "value": "Functional Test"
+    },
+    {
+      "name": "owner",
+      "value": "Balaji"
+    },
+    {
+      "name": "suite",
+      "value": "AmazonTest"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-4",
+      "url": "https://example.org/ISSUE-4",
+      "type": "issue"
+    },
+    {
+      "name": "TMS-12",
+      "url": "https://example.org/TMS-12",
+      "type": "tms"
+    }
+  ],
+  "name": "LogoValidation",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "Amazon Logo Validation\n",
+  "steps": [
+    {
+      "name": "LogoValidation",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "e772f5cc23ef40319e9e75a501ed04dc-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1587267003996,
+      "stop": 1587267024837
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1587267003996,
+  "stop": 1587267024838
+}

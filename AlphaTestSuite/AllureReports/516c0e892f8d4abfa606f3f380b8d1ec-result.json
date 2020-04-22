@@ -1,0 +1,87 @@
+{
+  "uuid": "b618d35a-a2b9-426f-901a-618c0e46bf3a-tr-0-1005",
+  "historyId": "TestAllure.AmazonAllure.TitleValidation",
+  "fullName": "TestAllure.AmazonAllure.TitleValidation",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-E6LGVQU"
+    },
+    {
+      "name": "testClass",
+      "value": "TestAllure.AmazonAllure"
+    },
+    {
+      "name": "testMethod",
+      "value": "TitleValidation"
+    },
+    {
+      "name": "package",
+      "value": "TestAllure.AmazonAllure"
+    },
+    {
+      "name": "tag",
+      "value": "Functional Test"
+    },
+    {
+      "name": "owner",
+      "value": "Balaji"
+    },
+    {
+      "name": "suite",
+      "value": "AmazonTest"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-15",
+      "url": "https://example.org/ISSUE-15",
+      "type": "issue"
+    },
+    {
+      "name": "TMS-12",
+      "url": "https://example.org/TMS-12",
+      "type": "tms"
+    }
+  ],
+  "name": "TitleValidation",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "Amazon window title validation\n",
+  "steps": [
+    {
+      "name": "TitleValidation",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "2f05730a3d174ed1a1519fef1e305f8c-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1587267046240,
+      "stop": 1587267072044
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1587267046240,
+  "stop": 1587267072045
+}

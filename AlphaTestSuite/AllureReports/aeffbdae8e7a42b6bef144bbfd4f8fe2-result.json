@@ -1,0 +1,87 @@
+{
+  "uuid": "5d9f7f5c-3fb6-4135-9f92-e5c0046b3a74-tr-0-1006",
+  "historyId": "TestAllure.AmazonAllure.ScrollBarValidation",
+  "fullName": "TestAllure.AmazonAllure.ScrollBarValidation",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-E6LGVQU"
+    },
+    {
+      "name": "testClass",
+      "value": "TestAllure.AmazonAllure"
+    },
+    {
+      "name": "testMethod",
+      "value": "ScrollBarValidation"
+    },
+    {
+      "name": "package",
+      "value": "TestAllure.AmazonAllure"
+    },
+    {
+      "name": "tag",
+      "value": "Functional Test"
+    },
+    {
+      "name": "owner",
+      "value": "Balaji"
+    },
+    {
+      "name": "suite",
+      "value": "AmazonTest"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-6",
+      "url": "https://example.org/ISSUE-6",
+      "type": "issue"
+    },
+    {
+      "name": "TMS-12",
+      "url": "https://example.org/TMS-12",
+      "type": "tms"
+    }
+  ],
+  "name": "ScrollBarValidation",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "description": "Window ScrolBar Validation\n",
+  "steps": [
+    {
+      "name": "ScrollBarValidation",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "27734ab0fec140e1b7612bdd51bbcf18-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1587276596121,
+      "stop": 1587276617086
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1587276596107,
+  "stop": 1587276617120
+}

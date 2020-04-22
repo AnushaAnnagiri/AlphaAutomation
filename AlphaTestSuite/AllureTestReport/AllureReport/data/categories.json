@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@id='ap_password']\"}\n  (Session info: chrome=80.0.3987.163)",
+      "children" : [ {
+        "name" : "LoginFunction2",
+        "uid" : "854e274d8b564042",
+        "parentUid" : "e02dcc5d52acecadbf5861e948b2c2ea",
+        "status" : "failed",
+        "time" : {
+          "start" : 1587277482849,
+          "stop" : 1587277511555,
+          "duration" : 28706
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e02dcc5d52acecadbf5861e948b2c2ea"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

@@ -1,0 +1,36 @@
+﻿@model List<string>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>List of Test Cases</h2>
+
+@if (Model != null)
+{
+    <table>
+        <tbody>
+
+            @foreach (var item in Model)
+            {
+                <tr class="Tele-Med-navigation-datatable">
+                    <td>
+                        @item
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+}
+else
+{
+    <h6 style="margin-left: 40%;">No Test cases available</h6>
+}
+<br />
+<br />
+
+<input type="button" title="Run All" width="100" value="Run All"
+       onclick="location.href='@Url.Action("RunAllTests", "Home")'"      
+       />
+

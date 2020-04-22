@@ -1,0 +1,117 @@
+{
+  "TestAllure.AmazonAllure.LoginFunction3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3168c4770698208e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587277511654,
+        "stop" : 1587277537429,
+        "duration" : 25775
+      }
+    } ]
+  },
+  "TestAllure.AmazonAllure.LogoValidation" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aa5dd4b808929d9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587277537487,
+        "stop" : 1587277554952,
+        "duration" : 17465
+      }
+    } ]
+  },
+  "TestAllure.AmazonAllure.TitleValidation" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7fb20d890cfc2c76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587277577199,
+        "stop" : 1587277593245,
+        "duration" : 16046
+      }
+    } ]
+  },
+  "TestAllure.AmazonAllure.LoginFunction1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "87dd51a658919887",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587277446176,
+        "stop" : 1587277482347,
+        "duration" : 36171
+      }
+    } ]
+  },
+  "TestAllure.AmazonAllure.LoginFunction2" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "854e274d8b564042",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@id='ap_password']\"}\n  (Session info: chrome=80.0.3987.163)",
+      "time" : {
+        "start" : 1587277482849,
+        "stop" : 1587277511555,
+        "duration" : 28706
+      }
+    } ]
+  },
+  "TestAllure.AmazonAllure.ScrollBarValidation" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2fb9e904e56f3a5a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587277555079,
+        "stop" : 1587277577084,
+        "duration" : 22005
+      }
+    } ]
+  }
+}

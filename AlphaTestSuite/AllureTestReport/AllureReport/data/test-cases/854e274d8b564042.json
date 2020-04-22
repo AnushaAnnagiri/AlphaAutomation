@@ -1,0 +1,157 @@
+{
+  "uid" : "854e274d8b564042",
+  "name" : "LoginFunction2",
+  "fullName" : "TestAllure.AmazonAllure.LoginFunction2",
+  "historyId" : "TestAllure.AmazonAllure.LoginFunction2",
+  "time" : {
+    "start" : 1587277482849,
+    "stop" : 1587277511555,
+    "duration" : 28706
+  },
+  "description" : "Login with Invalid Credentials\n",
+  "descriptionHtml" : "<p>Login with Invalid Credentials</p>\n",
+  "status" : "failed",
+  "statusMessage" : "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@id='ap_password']\"}\n  (Session info: chrome=80.0.3987.163)",
+  "statusTrace" : "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)\r\n   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)\r\n   at TestAllure.AmazonAllure.LoginFunction2() in C:\\Users\\Admin\\source\\repos\\TestAllure\\TestAllure\\AmazonAllure.cs:line 94",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "InitBrowser",
+    "time" : {
+      "start" : 1587277511551,
+      "stop" : 1587277511551,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Login with Invalid Credentials\n",
+    "status" : "failed",
+    "statusMessage" : "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@id='ap_password']\"}\n  (Session info: chrome=80.0.3987.163)",
+    "statusTrace" : "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)\r\n   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)\r\n   at TestAllure.AmazonAllure.LoginFunction2() in C:\\Users\\Admin\\source\\repos\\TestAllure\\TestAllure\\AmazonAllure.cs:line 94",
+    "steps" : [ {
+      "name" : "LoginFunction2",
+      "time" : {
+        "start" : 1587277482849,
+        "stop" : 1587277511555,
+        "duration" : 28706
+      },
+      "status" : "failed",
+      "statusMessage" : "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@id='ap_password']\"}\n  (Session info: chrome=80.0.3987.163)",
+      "statusTrace" : "   at OpenQA.Selenium.Remote.RemoteWebDriver.UnpackAndThrowOnError(Response errorResponse)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElementByXPath(String xpath)\r\n   at OpenQA.Selenium.By.<>c__DisplayClass19_0.<XPath>b__0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.Remote.RemoteWebDriver.FindElement(By by)\r\n   at TestAllure.AmazonAllure.LoginFunction2() in C:\\Users\\Admin\\source\\repos\\TestAllure\\TestAllure\\AmazonAllure.cs:line 94",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "820d71a55e512aca",
+        "name" : "Console Output",
+        "source" : "820d71a55e512aca.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : true,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "CloseBrowser",
+    "time" : {
+      "start" : 1587277511551,
+      "stop" : 1587277511551,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-E6LGVQU"
+  }, {
+    "name" : "testClass",
+    "value" : "TestAllure.AmazonAllure"
+  }, {
+    "name" : "testMethod",
+    "value" : "LoginFunction2"
+  }, {
+    "name" : "package",
+    "value" : "TestAllure.AmazonAllure"
+  }, {
+    "name" : "tag",
+    "value" : "Functional Test"
+  }, {
+    "name" : "owner",
+    "value" : "Balaji"
+  }, {
+    "name" : "suite",
+    "value" : "AmazonTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "ISSUE-2",
+    "url" : "https://example.org/ISSUE-2",
+    "type" : "issue"
+  }, {
+    "name" : "TMS-12",
+    "url" : "https://example.org/TMS-12",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "owner" : "Balaji",
+    "retries" : [ {
+      "uid" : "16803b9e61e26350",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@id='ap_password']\"}\n  (Session info: chrome=80.0.3987.163)",
+      "time" : {
+        "start" : 1587276294315,
+        "stop" : 1587276325846,
+        "duration" : 31531
+      }
+    }, {
+      "uid" : "f15ff4010e0d14b1",
+      "status" : "failed",
+      "statusDetails" : "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//input[@id='ap_password']\"}\n  (Session info: chrome=80.0.3987.163)",
+      "time" : {
+        "start" : 1587266933435,
+        "stop" : 1587266970463,
+        "duration" : 37028
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "Functional Test" ]
+  },
+  "source" : "854e274d8b564042.json",
+  "parameterValues" : [ ]
+}

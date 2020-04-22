@@ -1,0 +1,91 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-E6LGVQU",
+    "children" : [ {
+      "name" : "NonParallelWorker",
+      "children" : [ {
+        "name" : "LoginFunction3",
+        "uid" : "3168c4770698208e",
+        "parentUid" : "c36c830df5ace736980966c842850646",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587277511654,
+          "stop" : 1587277537429,
+          "duration" : 25775
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TitleValidation",
+        "uid" : "7fb20d890cfc2c76",
+        "parentUid" : "c36c830df5ace736980966c842850646",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587277577199,
+          "stop" : 1587277593245,
+          "duration" : 16046
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LoginFunction2",
+        "uid" : "854e274d8b564042",
+        "parentUid" : "c36c830df5ace736980966c842850646",
+        "status" : "failed",
+        "time" : {
+          "start" : 1587277482849,
+          "stop" : 1587277511555,
+          "duration" : 28706
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LoginFunction1",
+        "uid" : "87dd51a658919887",
+        "parentUid" : "c36c830df5ace736980966c842850646",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587277446176,
+          "stop" : 1587277482347,
+          "duration" : 36171
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "ScrollBarValidation",
+        "uid" : "2fb9e904e56f3a5a",
+        "parentUid" : "c36c830df5ace736980966c842850646",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587277555079,
+          "stop" : 1587277577084,
+          "duration" : 22005
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "LogoValidation",
+        "uid" : "aa5dd4b808929d9c",
+        "parentUid" : "c36c830df5ace736980966c842850646",
+        "status" : "passed",
+        "time" : {
+          "start" : 1587277537487,
+          "stop" : 1587277554952,
+          "duration" : 17465
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c36c830df5ace736980966c842850646"
+    } ],
+    "uid" : "569d5c3096a7edeb2ba0207c69042959"
+  } ]
+}

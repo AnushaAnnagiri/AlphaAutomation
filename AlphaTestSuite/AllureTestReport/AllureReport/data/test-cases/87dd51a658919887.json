@@ -1,0 +1,145 @@
+{
+  "uid" : "87dd51a658919887",
+  "name" : "LoginFunction1",
+  "fullName" : "TestAllure.AmazonAllure.LoginFunction1",
+  "historyId" : "TestAllure.AmazonAllure.LoginFunction1",
+  "time" : {
+    "start" : 1587277446176,
+    "stop" : 1587277482347,
+    "duration" : 36171
+  },
+  "description" : "Login with Valid Credentials\n",
+  "descriptionHtml" : "<p>Login with Valid Credentials</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "InitBrowser",
+    "time" : {
+      "start" : 1587277482291,
+      "stop" : 1587277482291,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Login with Valid Credentials\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "LoginFunction1",
+      "time" : {
+        "start" : 1587277446186,
+        "stop" : 1587277482315,
+        "duration" : 36129
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7f996efbc6dce062",
+        "name" : "Console Output",
+        "source" : "7f996efbc6dce062.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "CloseBrowser",
+    "time" : {
+      "start" : 1587277482298,
+      "stop" : 1587277482298,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-E6LGVQU"
+  }, {
+    "name" : "testClass",
+    "value" : "TestAllure.AmazonAllure"
+  }, {
+    "name" : "testMethod",
+    "value" : "LoginFunction1"
+  }, {
+    "name" : "package",
+    "value" : "TestAllure.AmazonAllure"
+  }, {
+    "name" : "tag",
+    "value" : "Functional Test"
+  }, {
+    "name" : "owner",
+    "value" : "Balaji"
+  }, {
+    "name" : "suite",
+    "value" : "AmazonTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "ISSUE-1",
+    "url" : "https://example.org/ISSUE-1",
+    "type" : "issue"
+  }, {
+    "name" : "TMS-12",
+    "url" : "https://example.org/TMS-12",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "owner" : "Balaji",
+    "retries" : [ {
+      "uid" : "c224f6ad9c603602",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587276236968,
+        "stop" : 1587276293694,
+        "duration" : 56726
+      }
+    }, {
+      "uid" : "2fa21bf94fac4d3c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587266887024,
+        "stop" : 1587266932031,
+        "duration" : 45007
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "Functional Test" ]
+  },
+  "source" : "87dd51a658919887.json",
+  "parameterValues" : [ ]
+}

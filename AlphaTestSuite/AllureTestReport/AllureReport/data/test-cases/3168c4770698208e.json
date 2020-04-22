@@ -1,0 +1,154 @@
+{
+  "uid" : "3168c4770698208e",
+  "name" : "LoginFunction3",
+  "fullName" : "TestAllure.AmazonAllure.LoginFunction3",
+  "historyId" : "TestAllure.AmazonAllure.LoginFunction3",
+  "time" : {
+    "start" : 1587277511654,
+    "stop" : 1587277537429,
+    "duration" : 25775
+  },
+  "description" : "Flipkart Login with Valid Credentials\n",
+  "descriptionHtml" : "<p>Flipkart Login with Valid Credentials</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "InitBrowser",
+    "time" : {
+      "start" : 1587277537426,
+      "stop" : 1587277537426,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "Flipkart Login with Valid Credentials\n",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "LoginFunction3",
+      "time" : {
+        "start" : 1587277511654,
+        "stop" : 1587277537428,
+        "duration" : 25774
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "71ab99b4b138059d",
+        "name" : "Console Output",
+        "source" : "71ab99b4b138059d.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "hasContent" : true,
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 1
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "hasContent" : true,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 1
+  },
+  "afterStages" : [ {
+    "name" : "CloseBrowser",
+    "time" : {
+      "start" : 1587277537426,
+      "stop" : 1587277537426,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "thread",
+    "value" : "NonParallelWorker"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-E6LGVQU"
+  }, {
+    "name" : "testClass",
+    "value" : "TestAllure.AmazonAllure"
+  }, {
+    "name" : "testMethod",
+    "value" : "LoginFunction3"
+  }, {
+    "name" : "package",
+    "value" : "TestAllure.AmazonAllure"
+  }, {
+    "name" : "tag",
+    "value" : "Functional Test"
+  }, {
+    "name" : "owner",
+    "value" : "Balaji"
+  }, {
+    "name" : "suite",
+    "value" : "AmazonTest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ {
+    "name" : "ISSUE-3",
+    "url" : "https://example.org/ISSUE-3",
+    "type" : "issue"
+  }, {
+    "name" : "TMS-12",
+    "url" : "https://example.org/TMS-12",
+    "type" : "tms"
+  } ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "owner" : "Balaji",
+    "retries" : [ {
+      "uid" : "149867f0fb65d1d0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587276633847,
+        "stop" : 1587276661134,
+        "duration" : 27287
+      }
+    }, {
+      "uid" : "d467546470cc0bac",
+      "status" : "failed",
+      "statusDetails" : "System.IO.DirectoryNotFoundException : Could not find a part of the path 'E:\\AlphaAutomation\\AlphaTestSuite\\AllureTestReport\\LoginFunction3\\Step1.png'.",
+      "time" : {
+        "start" : 1587276325970,
+        "stop" : 1587276346454,
+        "duration" : 20484
+      }
+    }, {
+      "uid" : "6e70258273db222e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1587266970970,
+        "stop" : 1587267003930,
+        "duration" : 32960
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "Functional Test" ]
+  },
+  "source" : "3168c4770698208e.json",
+  "parameterValues" : [ ]
+}

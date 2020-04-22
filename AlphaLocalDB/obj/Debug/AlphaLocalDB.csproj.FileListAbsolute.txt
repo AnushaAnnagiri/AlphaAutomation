@@ -1,0 +1,14 @@
+E:\AlphaAutomation\AlphaLocalDB\bin\Debug\LocalDatabase.mdf
+E:\AlphaAutomation\AlphaLocalDB\bin\Debug\LocalDatabase_log.ldf
+E:\AlphaAutomation\AlphaLocalDB\bin\Debug\AlphaLocalDB.dll.config
+E:\AlphaAutomation\AlphaLocalDB\bin\Debug\AlphaLocalDB.dll
+E:\AlphaAutomation\AlphaLocalDB\bin\Debug\AlphaLocalDB.pdb
+E:\AlphaAutomation\AlphaLocalDB\bin\Debug\EntityFramework.dll
+E:\AlphaAutomation\AlphaLocalDB\bin\Debug\EntityFramework.SqlServer.dll
+E:\AlphaAutomation\AlphaLocalDB\bin\Debug\EntityFramework.xml
+E:\AlphaAutomation\AlphaLocalDB\bin\Debug\EntityFramework.SqlServer.xml
+E:\AlphaAutomation\AlphaLocalDB\obj\Debug\AlphaLocalDB.csprojAssemblyReference.cache
+E:\AlphaAutomation\AlphaLocalDB\obj\Debug\AlphaLocalDB.csproj.CoreCompileInputs.cache
+E:\AlphaAutomation\AlphaLocalDB\obj\Debug\AlphaLocalDB.csproj.CopyComplete
+E:\AlphaAutomation\AlphaLocalDB\obj\Debug\AlphaLocalDB.dll
+E:\AlphaAutomation\AlphaLocalDB\obj\Debug\AlphaLocalDB.pdb

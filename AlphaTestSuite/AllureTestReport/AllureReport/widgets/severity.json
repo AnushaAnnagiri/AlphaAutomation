@@ -1,0 +1,61 @@
+[ {
+  "uid" : "87dd51a658919887",
+  "name" : "LoginFunction1",
+  "time" : {
+    "start" : 1587277446176,
+    "stop" : 1587277482347,
+    "duration" : 36171
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7fb20d890cfc2c76",
+  "name" : "TitleValidation",
+  "time" : {
+    "start" : 1587277577199,
+    "stop" : 1587277593245,
+    "duration" : 16046
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3168c4770698208e",
+  "name" : "LoginFunction3",
+  "time" : {
+    "start" : 1587277511654,
+    "stop" : 1587277537429,
+    "duration" : 25775
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "854e274d8b564042",
+  "name" : "LoginFunction2",
+  "time" : {
+    "start" : 1587277482849,
+    "stop" : 1587277511555,
+    "duration" : 28706
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2fb9e904e56f3a5a",
+  "name" : "ScrollBarValidation",
+  "time" : {
+    "start" : 1587277555079,
+    "stop" : 1587277577084,
+    "duration" : 22005
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa5dd4b808929d9c",
+  "name" : "LogoValidation",
+  "time" : {
+    "start" : 1587277537487,
+    "stop" : 1587277554952,
+    "duration" : 17465
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

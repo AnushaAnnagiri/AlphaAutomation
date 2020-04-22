@@ -1,0 +1,44 @@
+{
+  "uuid": "485eadfa-224a-48e6-bfcf-e9e2b26df5ab-tc-0-1000",
+  "name": "TestAllure.AmazonAllure.ScrollBarValidation",
+  "children": [
+    "c4c030ad-d83c-4c8e-9e3f-27fa71c787aa-tr-0-1006"
+  ],
+  "befores": [
+    {
+      "name": "InitBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1587277577083,
+      "stop": 1587277577083
+    }
+  ],
+  "afters": [
+    {
+      "name": "CloseBrowser",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1587277577083,
+      "stop": 1587277577083
+    }
+  ],
+  "links": [],
+  "start": 1587277555078,
+  "stop": 1587277577183
+}

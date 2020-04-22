@@ -1,0 +1,10 @@
+{
+  "uuid": "0-1000-ignored",
+  "name": "TestAllure.AmazonAllure",
+  "children": [],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1587277446121,
+  "stop": 1587277593327
+}

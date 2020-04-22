@@ -1,0 +1,91 @@
+{
+  "uuid": "e2426619-c381-41a0-94b4-c06aac0efa6a-tr-0-1006",
+  "historyId": "TestAllure.AmazonAllure.ScrollBarValidation",
+  "fullName": "TestAllure.AmazonAllure.ScrollBarValidation",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "DESKTOP-E6LGVQU"
+    },
+    {
+      "name": "testClass",
+      "value": "TestAllure.AmazonAllure"
+    },
+    {
+      "name": "testMethod",
+      "value": "ScrollBarValidation"
+    },
+    {
+      "name": "package",
+      "value": "TestAllure.AmazonAllure"
+    },
+    {
+      "name": "tag",
+      "value": "Functional Test"
+    },
+    {
+      "name": "owner",
+      "value": "Balaji"
+    },
+    {
+      "name": "suite",
+      "value": "AmazonTest"
+    }
+  ],
+  "links": [
+    {
+      "name": "ISSUE-6",
+      "url": "https://example.org/ISSUE-6",
+      "type": "issue"
+    },
+    {
+      "name": "TMS-12",
+      "url": "https://example.org/TMS-12",
+      "type": "tms"
+    }
+  ],
+  "name": "ScrollBarValidation",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.IO.DirectoryNotFoundException : Could not find a part of the path 'E:\\AlphaAutomation\\AlphaTestSuite\\AllureTestReport\\LoginFunction3\\Step10.png'.",
+    "trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)\r\n   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)\r\n   at System.IO.FileStream..ctor(String path, FileMode mode)\r\n   at OpenQA.Selenium.Screenshot.SaveAsFile(String fileName, ScreenshotImageFormat format)\r\n   at TestAllure.AmazonAllure.ScrollBarValidation() in C:\\Users\\Admin\\source\\repos\\TestAllure\\TestAllure\\AmazonAllure.cs:line 172"
+  },
+  "stage": "finished",
+  "description": "Window ScrolBar Validation\n",
+  "steps": [
+    {
+      "name": "ScrollBarValidation",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "System.IO.DirectoryNotFoundException : Could not find a part of the path 'E:\\AlphaAutomation\\AlphaTestSuite\\AllureTestReport\\LoginFunction3\\Step10.png'.",
+        "trace": "   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)\r\n   at System.IO.FileStream.Init(String path, FileMode mode, FileAccess access, Int32 rights, Boolean useRights, FileShare share, Int32 bufferSize, FileOptions options, SECURITY_ATTRIBUTES secAttrs, String msgPath, Boolean bFromProxy, Boolean useLongPath, Boolean checkHost)\r\n   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options, String msgPath, Boolean bFromProxy)\r\n   at System.IO.FileStream..ctor(String path, FileMode mode)\r\n   at OpenQA.Selenium.Screenshot.SaveAsFile(String fileName, ScreenshotImageFormat format)\r\n   at TestAllure.AmazonAllure.ScrollBarValidation() in C:\\Users\\Admin\\source\\repos\\TestAllure\\TestAllure\\AmazonAllure.cs:line 172"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Console Output",
+          "source": "a04960f6a7614fc9b8d6f705ac8b28fb-attachment.txt",
+          "type": "text/plain"
+        }
+      ],
+      "parameters": [],
+      "start": 1587276367749,
+      "stop": 1587276385481
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1587276367749,
+  "stop": 1587276385482
+}
